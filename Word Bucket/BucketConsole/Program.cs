@@ -5,6 +5,7 @@ namespace BucketConsole
 {
     class Program
     {
+        //Many thanks to Alain and other batchmates who helped me understand the solution and overcome some fringe cases that were giving me problems
         static void Main(string[] args)
         {
             string shells = "she sells sea shells by the sea";
