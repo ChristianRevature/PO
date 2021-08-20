@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BucketConsole/1.0.0": {
+        "dependencies": {
+          "WordBucket": "1.0.0"
+        },
+        "runtime": {
+          "BucketConsole.dll": {}
+        }
+      },
+      "WordBucket/1.0.0": {
+        "runtime": {
+          "WordBucket.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BucketConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WordBucket/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

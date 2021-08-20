@@ -1,0 +1,12 @@
+C:\Users\Christian\Desktop\PO\PO\Word Bucket\WordBucket\bin\Debug\net5.0\WordBucket.deps.json
+C:\Users\Christian\Desktop\PO\PO\Word Bucket\WordBucket\bin\Debug\net5.0\WordBucket.dll
+C:\Users\Christian\Desktop\PO\PO\Word Bucket\WordBucket\bin\Debug\net5.0\ref\WordBucket.dll
+C:\Users\Christian\Desktop\PO\PO\Word Bucket\WordBucket\bin\Debug\net5.0\WordBucket.pdb
+C:\Users\Christian\Desktop\PO\PO\Word Bucket\WordBucket\obj\Debug\net5.0\WordBucket.csproj.AssemblyReference.cache
+C:\Users\Christian\Desktop\PO\PO\Word Bucket\WordBucket\obj\Debug\net5.0\WordBucket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christian\Desktop\PO\PO\Word Bucket\WordBucket\obj\Debug\net5.0\WordBucket.AssemblyInfoInputs.cache
+C:\Users\Christian\Desktop\PO\PO\Word Bucket\WordBucket\obj\Debug\net5.0\WordBucket.AssemblyInfo.cs
+C:\Users\Christian\Desktop\PO\PO\Word Bucket\WordBucket\obj\Debug\net5.0\WordBucket.csproj.CoreCompileInputs.cache
+C:\Users\Christian\Desktop\PO\PO\Word Bucket\WordBucket\obj\Debug\net5.0\WordBucket.dll
+C:\Users\Christian\Desktop\PO\PO\Word Bucket\WordBucket\obj\Debug\net5.0\ref\WordBucket.dll
+C:\Users\Christian\Desktop\PO\PO\Word Bucket\WordBucket\obj\Debug\net5.0\WordBucket.pdb
