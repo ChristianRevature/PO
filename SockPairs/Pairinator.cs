@@ -28,25 +28,48 @@ namespace SockPairs
         {
             Dictionary<char, int> sockpairs = new Dictionary<char, int>();
             // pass the input string to a char array
-            char[] letter = sockbasket.ToCharArray(); 
-            Array.Sort(letter);
-            Console.WriteLine(letter);
+            char[] sortedsocks = sockbasket.ToCharArray(); 
+            Array.Sort(sortedsocks);
+            Console.WriteLine(sortedsocks);
 
-            //returns index numbers 
 
-            // make X number of collections of each unique sock type
+            int pairs = 0;
+            int i = 0;
+            while(i < sortedsocks.Length - 1)
+            {
+                //if index i and index i+1 are the same, add to the count and count by 2's
+                if (sortedsocks[i] == sortedsocks[i + 1]){
+                    pairs++;
+                    i=i + 2;
+                }
+                //if index i and index i+1 are not the same, then move over to next index
+                try
+                {
+                    if (sortedsocks[i] != sortedsocks[i + 1] && sortedsocks[i] != sortedsocks.Length - 1)
+                    {
+                        i++;
+                        sockpairs.Add(sortedsocks[i], pairs);
+                    }
+                }
+                catch(IndexOutOfRangeException )
+                {
+                    Console.WriteLine("IndexOutOfRangeException was handled");
+                }
+                //finally
+                //{
+                //    foreach (var key in sockpairs)
+                //    {
+                //        foreach (var value in sockpairs)
+                //        {
+                //            Console.WriteLine($"Sock Type {key} has {value} pairs");
+                //        }
+                //    }
+                //}
+                
+            }
 
-            //foreach(char x in letter)
-            //{
 
-            //}
-
-            ////for each unique socktype in the sockbasket, count the number of times they appear in the sockbasket 
-            //foreach(char type in sockbasket)
-            //{
-
-            //    sockpairs.Add( type,  count);
-            //}
+            Console.WriteLine($"The total number of sockpairs is {pairs}");
         }
 
         /// <summary>
