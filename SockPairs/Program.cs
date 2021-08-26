@@ -7,9 +7,10 @@ namespace SockPairs
     {
         static void Main(string[] args)
         {
-            Pairinator pairinator = new Pairinator();
-
-            Pairinator.NumberOfSockTypes("ABDFKSADFJLASDKFJH");
+            //To use this program, simply replace the "sockbasket" string with your desired string
+            Pairinator.SockTypes("ADLFKJASDKJBFASDJFL");
+            Pairinator.NumberOfSockTypes("ADLFKJASDKJBFASDJFL");
+            Pairinator.CountPairs("ADLFKJASDKJBFASDJFL");
         }
     }
 }
