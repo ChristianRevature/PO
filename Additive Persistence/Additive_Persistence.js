@@ -3,17 +3,16 @@ var number;
 var AP = 0;
 var MP = 0;
 
-promptInput = function(){
-    alert('Please input any real number');
-    alert(input);
-
-}
 
 Integerize = function (){
     //takes any number input and converts it to an integer
+    let integerized = document.getElementById("APInput");
+    inputNumber = parseInt(integerized);
+    console.log(typeof inputNumber);
 }
 
 function FindAP(number){
+
 
     //Check if number <10. If so, AP = 0
     if(number <10 && number >0){
@@ -22,17 +21,21 @@ function FindAP(number){
     }
     else{
     //if the sum is less than 10, add 1 to AP finish and print the sum
-
+        ArraySum(number);
     }
   
     //else, keep turning into character array and summing values 
 }
 
 function ArraySum(number){
+    let sum = 0;
     //turn number into a character array
-    charArray = Array.from(String(number), Number);
+    numArray = Array.from(Number(number), Number);
     //sum the values of the character array
-    // for(let i = 0; i < charArray. )
+    for(let i = 0; i < numArray.length-1; i++ ){
+        sum += charArray[i];
+        return sum; 
+    }
 }
 //MP
 
